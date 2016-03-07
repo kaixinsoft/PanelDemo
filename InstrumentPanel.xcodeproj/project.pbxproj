@@ -14,6 +14,8 @@
 		4076575C1C8D588100363A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4076575A1C8D588100363A1A /* LaunchScreen.storyboard */; };
 		407657671C8D588100363A1A /* InstrumentPanelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407657661C8D588100363A1A /* InstrumentPanelTests.swift */; };
 		407657721C8D588100363A1A /* InstrumentPanelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407657711C8D588100363A1A /* InstrumentPanelUITests.swift */; };
+		407657811C8D589300363A1A /* Panel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407657801C8D589300363A1A /* Panel.swift */; };
+		407657831C8D5D4C00363A1A /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407657821C8D5D4C00363A1A /* Indicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4076576D1C8D588100363A1A /* InstrumentPanelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstrumentPanelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		407657711C8D588100363A1A /* InstrumentPanelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentPanelUITests.swift; sourceTree = "<group>"; };
 		407657731C8D588100363A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407657801C8D589300363A1A /* Panel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Panel.swift; sourceTree = "<group>"; };
+		407657821C8D5D4C00363A1A /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		407657501C8D588100363A1A /* InstrumentPanel */ = {
 			isa = PBXGroup;
 			children = (
+				4076577F1C8D588700363A1A /* View */,
 				407657511C8D588100363A1A /* AppDelegate.swift */,
 				407657531C8D588100363A1A /* ViewController.swift */,
 				407657551C8D588100363A1A /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				407657731C8D588100363A1A /* Info.plist */,
 			);
 			path = InstrumentPanelUITests;
+			sourceTree = "<group>";
+		};
+		4076577F1C8D588700363A1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				407657801C8D589300363A1A /* Panel.swift */,
+				407657821C8D5D4C00363A1A /* Indicator.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			files = (
 				407657541C8D588100363A1A /* ViewController.swift in Sources */,
 				407657521C8D588100363A1A /* AppDelegate.swift in Sources */,
+				407657811C8D589300363A1A /* Panel.swift in Sources */,
+				407657831C8D5D4C00363A1A /* Indicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
